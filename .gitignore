@@ -1,0 +1,49 @@
+# Environment files
+.env
+.env.*
+!.env.example
+config.env
+**/config.env
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.secret
+*.secrets
+*.credential
+*.credentials
+*.token
+*.vault
+
+# Logs and runtime artifacts
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build output
+node_modules
+client/dist
+client/dist-ssr
+server/dist
+server/build
+coverage
+
+# Editor/system files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
